@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Forecast"
+        android:textSize="24sp"
+        android:textColor="#673AB7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- ScrollView for scrolling content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp">
+
+        <!-- Content layout inside ScrollView -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- TextViews for weather information -->
+            <TextView
+                android:id="@+id/weatherTempCurrent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature: 25°C"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/weatherFeelsLikeCurrent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feels Like"
+                android:layout_below="@id/weatherTempCurrent1"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherMain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather Main"
+                android:layout_below="@id/weatherFeelsLikeCurrent1"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherWindSpeed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Speed"
+                android:layout_below="@id/weatherMain1"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherTimeDt_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time and Date"
+                android:layout_below="@id/weatherWindSpeed1"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherTempCurrent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature"
+                android:layout_below="@id/weatherTimeDt_txt1"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/weatherFeelsLikeCurrent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feels Like"
+                android:layout_below="@id/weatherTempCurrent2"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherMain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather Main"
+                android:layout_below="@id/weatherFeelsLikeCurrent2"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherWindSpeed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Speed"
+                android:layout_below="@id/weatherMain2"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/weatherTimeDt_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time and Date"
+                android:layout_below="@id/weatherWindSpeed2"
+                android:layout_marginTop="8dp"/>
+
+
+            <!-- Add more TextViews for other weather information -->
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

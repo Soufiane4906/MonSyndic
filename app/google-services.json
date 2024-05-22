@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654625039056",
+    "project_id": "mon-syndic-ae21c",
+    "storage_bucket": "mon-syndic-ae21c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654625039056:android:20bb3c971ebf75390e74d5",
+        "android_client_info": {
+          "package_name": "com.example.monsyndic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTu7FMsplVdHLgv79b72ViAEe52ngN9Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

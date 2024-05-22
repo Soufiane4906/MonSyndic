@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/pkbe"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MonProfil">
+
+    <ImageView
+        android:id="@+id/image_profile_info"
+        android:layout_width="145dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-120dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/user_image" />
+
+    <TextView
+        android:id="@+id/text_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nom de l'utilisateur:"
+        android:textColor="@color/Lavender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Email de l'utilisateur -->
+    <TextView
+        android:id="@+id/text_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email de l'utilisateur:"
+        android:textColor="@color/Lavender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Adresse de l'utilisateur -->
+    <TextView
+        android:id="@+id/text_user_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Adresse de l'utilisateur:"
+        android:textColor="@color/Lavender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_user_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Contact Number -->
+    <TextView
+        android:id="@+id/text_user_contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contact Number:"
+        android:textColor="@color/Lavender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_user_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Immeuble ID -->
+    <TextView
+        android:id="@+id/text_immeuble_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Immeuble ID:"
+        android:textColor="@color/Lavender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_immeuble_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retourP"
+        android:text="Back"
+        android:textStyle="bold"/>
+</LinearLayout>
